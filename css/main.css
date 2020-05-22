@@ -64,7 +64,21 @@
 }
 
 .card {
-	height: 600px;
+	height: 650px;
+}
+
+.borderfix {
+	content: "";
+	position: absolute;
+	top: -35px;
+	bottom: -35px;
+	left: 50%;
+	border: 10px solid #5AB88F; 
+	z-index: -1;
+	width: 64%;
+	max-width: 315px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 .filter {
