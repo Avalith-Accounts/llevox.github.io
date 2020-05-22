@@ -26,6 +26,39 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165878537-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-165878537-1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '719729158803111');
+		fbq('track', 'PageView');
+	</script>
+	
+	<noscript>
+		<img height="1" width="1"
+		src="https://www.facebook.com/tr?id=719729158803111&ev=PageView
+		&noscript=1"/>
+	</noscript>
+	
+	<!-- End Facebook Pixel Code -->
+
 	<!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
@@ -99,7 +132,7 @@
 					<nav class="mainmenu_wrapper">
 						<ul class="mainmenu nav sf-menu">
 							<li>
-								<a href="#llevox">¿Que es llevox?</a>
+								<a href="#llevox">¿Qué es llevox?</a>
 							</li>
 							<li>
 								<a href="#servicios">Servicios</a>
@@ -108,7 +141,7 @@
 								<a href="#traslados">¿Qué trasladamos?</a>
 							</li>
 							<li>
-								<a href="#funcionamiento">¿Como funciona?</a>
+								<a href="#funcionamiento">¿Cómo funciona?</a>
 							</li>
 							<li>
 								<a href="#soyfletero">Soy Fletero</a>
@@ -153,8 +186,8 @@
 											<div class="pepe intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
 												<p class="descarga">Descargá la app:</p>
 												<div class="slider-bottons">
-													<img src="images/static/Google_Play.png" alt="" class="google_img">
-													<img src="images/static/App_Store.png" alt="" class="ios_img">
+													<a href="https://play.google.com/store/apps/llevox-usuarios"><img src="images/static/Google_Play.png" alt="" class="google_img"></a>
+													<a href="https://www.apple.com/ios/app-store/llevox-usuarios"><img src="images/static/App_Store.png" alt="" class="ios_img"></a>
 												</div>
 											</div>
 									</div>
@@ -569,8 +602,7 @@
 				</div>
 				<div class="col-sm-12 text-center">
 					<div class="video-responsive">
-						<iframe src="https://www.youtube.com/embed/p_X1Qj1ZrC8" frameborder="0"
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/aYZhbV3_uhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="col-12 solo_web">
@@ -585,126 +617,127 @@
 		</div>
 	</section>
 	<!-- <section id="soyfletero" class="ls section_padding_top_75 section_padding_bottom_90 columns_margin_bottom_30 page_blog"></section> -->
-	<section id="soyfletero" class="ls section_padding_top_30">
+	<section id="soyfletero" class="ls section_padding_top_30 page_about"> <!-- class="ls section_padding_top_65 section_padding_bottom_100 columns_margin_bottom_30 page_about "> -->
+
 		<div class="container">
-			<div class="row text-center">
-				<div class="framed-heading">
-					<h2 class="section_header">
-						SOY FLETERO
-					</h2>
+			<div class="row topmargin_30">
+				<div class="col-sm-12 text-center">
+					<div class="framed-heading">
+						<h2 class="section_header">
+							<span> SOY FLETERO</span>
+						</h2>
+					</div>
 				</div>
 			</div>
 		</div>
-		<section class="cs  section_padding_top_75 section_padding_bottom_75 parallax  page_banner" style="background-image: url(images/static/LLEVOX_Fletero.jpg); background-color: rgba(29, 48, 82, 0.9); background-color: transparent;">
-		
-			<div class="filter">
-				<div class="container central-conteiner">
-					<div class="row">
-						<div class="col-sm-12 text-center selected">
-							<div class="framed-heading to_animate" data-animation="fadeInUp">
-								<h2 class="section_header small">SUMATE A LLEVOX&nbsp;</h2>
-							</div>
-							<div class="to_animate" data-animation="fadeInDown">
-								<p class="to_animate">¿Tenés un utilitario? ¿Querés aumentar tu cartera de clientes? ¿Querés mejorar tus ingresos? ¿Querés optimizar tu trabajo?<br><br>Descargá GRATIS la app exclusiva para fleteros<br><br><br></p>
-							</div>
-							<div class="container">
-								<div class="row text-center">
-									<img src="images/static/Google_Play.png" alt="Google_Store" height="100px" width="200px">
-									<img src="images/static/App_Store.png" alt="App_Store" height="100px" width="200px">
-								</div>
+	</section>
+
+	<section class="cs  section_padding_top_75 section_padding_bottom_75 parallax" style="background-image: url(images/static/LLEVOX_Fletero.jpg); background-color: rgba(29, 48, 82, 0.9); background-color: transparent;">
+		<div class="filter">
+			<div class="container central-conteiner">
+				<div class="row">
+					<div class="col-sm-12 text-center selected">
+						<div class="framed-heading to_animate  data-animation="fadeInUp">
+							<h2 class="section_header small">SUMATE A LLEVOX&nbsp;</h2>
+						</div>
+						<div class="to_animate" data-animation="fadeInDown">
+							<p class="to_animate">¿Tenés un utilitario? ¿Querés aumentar tu cartera de clientes? ¿Querés mejorar tus ingresos? ¿Querés optimizar tu trabajo?<br><br>Descargá GRATIS la app exclusiva para fleteros<br><br><br></p>
+						</div>
+						<div class="container">
+							<div class="row text-center">
+								<a href="https://play.google.com/store/apps/llevox-usuarios"><img src="images/static/Google_Play.png" alt="Google_Store" height="100px" width="200px"></a>
+								<a href="https://www.apple.com/ios/app-store/llevox-usuarios"><img src="images/static/App_Store.png" alt="App_Store" height="100px" width="200px"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-				
-			
-		</section>
-		
-		<div class="container">
-			<div class="col-sm-12 text-center">
-				<div class="video-responsive">
-					<iframe src="https://www.youtube.com/embed/p_X1Qj1ZrC8" frameborder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
 		</div>		
-		
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-6">
-					<article class="vertical-item content-padding with_border blog-item card">
-						<div class="item-media">
-							<img src="images/static/LLEVOX_Fletero_Utilitario.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<header class="entry-header">
-								<h3 class="entry-title">
-									<a href="blog-single-right.html" rel="bookmark">¿TENÉS UN UTILITARIO?</a>
-								</h3>
-							</header>
-							<p>
-								Llegó el momento de modernizarte y ponerte en marcha! LLEVOX te permite generar un ingreso mansual y administrar tu tiempo a gusto, sin jefes, ni oficinas. Podés cotizar los translados que desees al valor que consideres adecuado.
-							</p>
-						</div>
-					</article>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<article class="vertical-item content-padding with_border blog-item card">
-						<div class="item-media">
-							<img src="images/static/LLEVOX_Fletero_Ventajas.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<header class="entry-header">
-
-								<h3 class="entry-title">
-									<a href="blog-single-right.html" rel="bookmark">VENTAJAS</a>
-								</h3>
-
-							</header>
-
-							<p>
-								Al manejarse 100% sobre una plataforma online, los usuarios Pueden acceder más rápido a un servicio seguro y calorado. Los fleteros pueden obtener mayor cantidad de clientes, aumentar su rentabilidad y organizar mejor su trabajo de forma GRATUITA
-							</p>
-
-						</div>
-					</article>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<article class="vertical-item content-padding with_border blog-item card">
-						<div class="item-media">
-							<img src="images/static/LLEVOX_Fletero_Pasos.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<header class="entry-header">
-
-								<h3 class="entry-title">
-									<a href="blog-single-right.html" rel="bookmark">PASOS</a>
-								</h3>
-
-							</header>
-							
-								<ol>
-									<li>Descargá la app versión fleteros.</li>
-									<li>Registrate siguiendo simples pasos.</li>
-									<li>Adjutá la documentación requerida.</li>
-									<li>A medida que ingresen solicitudes de traslado, cotizá la que desees al precio que te parezca correcto.</li>
-									<li>Cobrá en efectivo o con MercadoPago</li>
-								</ol>
-							
-						</div>
-					</article>
-				</div>
-			
-			</div>
-			<div class="container separador2">
-				<!-- separador -->
+	</section>
+	<div class="container separador1">
+		<!-- separador -->
+	</div>	
+	<div class="container">
+		<div class="col-sm-12 text-center">
+			<div class="video-responsive">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/78ozvkGIQvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
+	</div>		
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6">
+				<article class="vertical-item content-padding with_border blog-item card">
+					<div class="item-media">
+						<img src="images/static/LLEVOX_Fletero_Utilitario.jpg" alt="">
+					</div>
+					<div class="item-content">
+						<header class="entry-header">
+							<h3 class="entry-title">
+								¿TENÉS UN UTILITARIO?
+							</h3>
+						</header>
+						<p>
+							Llegó el momento de modernizarte y ponerte en marcha! LLEVOX te permite generar un ingreso mansual y administrar tu tiempo a gusto, sin jefes, ni oficinas. Podés cotizar los translados que desees al valor que consideres adecuado.
+						</p>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-4 col-sm-6">
+				<article class="vertical-item content-padding with_border blog-item card">
+					<div class="item-media">
+						<img src="images/static/LLEVOX_Fletero_Ventajas.jpg" alt="">
+					</div>
+					<div class="item-content">
+						<header class="entry-header">
+							<h3 class="entry-title">
+								VENTAJAS
+							</h3>
+						</header>
+
+						<p>
+							Al manejarse 100% sobre una plataforma online, los usuarios Pueden acceder más rápido a un servicio seguro y valorado. Los fleteros pueden obtener mayor cantidad de clientes, aumentar su rentabilidad y organizar mejor su trabajo de forma GRATUITA.
+						</p>
+
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-4 col-sm-6">
+				<article class="vertical-item content-padding with_border blog-item card">
+					<div class="item-media">
+						<img src="images/static/LLEVOX_Fletero_Pasos.jpg" alt="">
+					</div>
+					<div class="item-content">
+						<header class="entry-header">
+
+							<h3 class="entry-title">
+								PASOS
+							</h3>
+
+						</header>
+						
+							<ol>
+								<li>Descargá la app versión fleteros.</li>
+								<li>Registrate siguiendo simples pasos.</li>
+								<li>Adjutá la documentación requerida.</li>
+								<li>A medida que ingresen solicitudes de traslado, cotizá la que desees al precio que te parezca correcto.</li>
+								<li>Cobrá en efectivo o con MercadoPago</li>
+							</ol>
+						
+					</div>
+				</article>
+			</div>
+			
+		</div>
+		<div class="container separador2">
+			<!-- separador -->
+		</div>
+		</div>
 	</section>
-	
+
 	<footer class="page_footer ls ms color section_padding_top_75 section_padding_bottom_100 columns_margin_bottom_10">
 		<div class="container">
 			<div class="row">
