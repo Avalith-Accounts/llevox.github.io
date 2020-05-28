@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<title>Llevox</title>
+	<meta charset="utf-8" />
+	<!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+	<meta name="description" content="LLEVOX es una aplicación para celulares que conecta al usuario con el
+	fletero que se adecue a sus necesidades para que sus traslados sean
+	prácticos, confiables y al mejor precio del mercado." />
+	<meta name="keywords" content="Llevox, fletes, mudanzas, transporte de materiales, mar del plata, argentina" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="icon" type="image/vnd.microsoft.icon" href="Favicon_LLEVOX_16x16.ico" sizes="16x16">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="Favicon_LLEVOX_24x24.ico" sizes="24x24">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="Favicon_LLEVOX_32x32.ico" sizes="32x32">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="Favicon_LLEVOX_48x48.ico" sizes="48x48">	
+	<link rel="icon" type="image/vnd.microsoft.icon" href="Favicon_LLEVOX_64x64.ico" sizes="64x64">	
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link" />
+	<link rel="stylesheet" href="css/animations.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165878537-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-165878537-1');
+	</script>
+
+	<!-- Facebook Pixel Code -->
+
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '719729158803111');
+		fbq('track', 'PageView');
+	</script>
+	
+	<noscript>
+		<img height="1" width="1"
+		src="https://www.facebook.com/tr?id=719729158803111&ev=PageView
+		&noscript=1"/>
+	</noscript>
+	
+	<!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+	<!-- top header -->
+	<section class="page_toplogo table_section ls mainpge_toplogo section_padding_25">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-lg-3 text-center text-sm-left">
+					<a href="http://llevox.com/" class="logo" target="_blank">
+						<img src="images/static/LLEVOX_Flete_Mudanza.png" alt="logo_header" class="imageLogo" />
+					</a>
+				</div>
+				<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
+					<a href="https://api.whatsapp.com/send?phone=5492236939601" 
+						class="media inline-block text-uppercase semibold small-teaser text-left">
+						<!-- <div class="media inline-block text-uppercase semibold small-teaser text-left"> -->
+							<div class="grey bold">Preguntanos</div>
+							+54 9 223 693-9601
+						<!-- </div> -->
+					</a>
+					<div class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm" >
+						<span class="media-left media-middle">
+							<span class="teaser_icon border_icon round">
+								<i class="flaticon-house grey bold"></i>
+							</span>
+						</span>
+						<span class="media-body media-middle semibold">
+							<span class="bold grey">Mar del Plata</span>
+							<br />ARGENTINA
+						</span>
+					</div>
+					<a class="media inline-block small-teaser text-left teaser-link hidden-xs hidden-sm"
+						href="mailto:hola@llevox.com">
+						<span class="media-left media-middle">
+							<span class="teaser_icon border_icon round">
+								<i class="flaticon-envelope grey bold"></i>
+							</span>
+						</span>
+						<span class="media-body media-middle semibold">
+							<span class="bold grey">Enviá un mail a</span>
+							<br />
+							hola@llevox.com
+						</span>
+					</a>
+					<div>
+						<a href="https://www.facebook.com/llevoxmdp" target="_blank"
+							class="social-icon border-icon rounded-icon theme-color2-icon soc-facebook"></a>
+						<a href="https://www.instagram.com/llevox/" target="_blank"
+							class="social-icon border-icon rounded-icon theme-color2-icon soc-instagram"></a>
+						<a href="https://ar.linkedin.com/company/llevox" target="_blank"
+							class="social-icon border-icon rounded-icon theme-color2-icon soc-linkedin"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<header class="cs page_header header_darkgrey ms toggle_menu_left">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<!-- main nav start -->
+					<nav class="mainmenu_wrapper">
+						<ul class="mainmenu nav sf-menu">
+                            <li>
+								<a href="#soyfletero">SOY FLETERO</a>
+							</li>
+							<li>
+								<a href="#funcionamiento">¿COMO FUNCIONA?</a>
+							</li>
+							<li>
+								<a href="index.html">SOY USUARIO</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- eof main nav -->
+				</div>
+				<div class="col-md-3 text-right">
+					<span class="toggle_menu">
+						<span></span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Slider - Carousel -->
+	<section class="intro_section page_mainslider">
+		<div class="flexslider">
+			<ul class="slides">
+				<li class="cs"	>
+					<img src="images/carousel/LLEVOX_Fletes_01.jpg" alt="pedí un Llevox" draggable="false">
+					<div class="bg_overlay">
+					</div>					
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="slide_description_wrapper">
+									<div class="slide_description pepe-extra ">
+											<div class="intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft">
+												<p class="big">
+													Tenés un flete a mano
+												</p>
+												<p class="divider_20">Una solución logística accesible al mejor precio del mercado.</p>
+											</div>
+											<!-- sección fija de botones -->
+											<div class="pepe intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
+												<p class="descarga">Descargá la app:</p>
+												<div class="slider-bottons">
+													<a href="https://play.google.com/store/apps/llevox-usuarios"><img src="images/static/Google_Play.png" alt="" class="google_img"></a>
+													<a href="https://www.apple.com/ios/app-store/llevox-usuarios"><img src="images/static/App_Store.png" alt="" class="ios_img"></a>
+												</div>
+											</div>
+									</div>
+									<!-- eof .slide_description -->
+								</div>
+								<!-- eof .slide_description_wrapper -->
+							</div>
+							<!-- eof .col-* -->
+						</div>
+						<!-- eof .row -->
+					</div>
+					<!-- eof .container -->
+				</li>
+				<li class="cs flex-active-slide"	>
+					<img src="images/carousel/LLEVOX_Fletes_02.jpg" alt="pedí un Llevox" draggable="false">
+					<div class="bg_overlay">
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="slide_description_wrapper">
+									<div class="slide_description">
+										<div class="intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
+
+												<p class="big">
+													Llevox te conecta con el fletero adecuado
+												</p>
+											</div>
+											<div class=" pepe intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
+
+												<p class="descarga">Descargá la app:</p>
+												<div class="slider-bottons">
+													<img src="images/static/Google_Play.png" alt="" class="google_img">
+													<img src="images/static/App_Store.png" alt="" class="ios_img">
+												</div>
+											</div>
+									</div>
+									<!-- eof .slide_description -->
+								</div>
+								<!-- eof .slide_description_wrapper -->
+							</div>
+							<!-- eof .col-* -->
+						</div>
+						<!-- eof .row -->
+					</div>
+					<!-- eof .container -->
+				</li>
+				<li class="cs">
+					<img src="images/carousel/LLEVOX_Fletes_03.jpg" alt="pedí un Llevox" draggable="false">
+					<div class="bg_overlay">
+					</div>					
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="slide_description_wrapper">
+									<div class="slide_description">
+											<div class="intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
+												<p class="big">
+													Pedí un Llevox
+												</p>
+												<p class="divider_20">¿Necesitás un flete? ¿Te estás mudando? ¿Necesitás enviar un pedido?
+													¿Compraste algo y no sabés como llevarlo a tu casa?</p>
+											</div>
+											<div class="pepe intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
+												<p class="descarga">Descargá la app:</p>
+												<div class="slider-bottons">
+													<img src="images/static/Google_Play.png" alt="" class="google_img">
+													<img src="images/static/App_Store.png" alt="" class="ios_img">
+												</div>
+											</div>
+									</div>
+									<!-- eof .slide_description -->
+								</div>
+								<!-- eof .slide_description_wrapper -->
+							</div>
+							<!-- eof .col-* -->
+						</div>
+						<!-- eof .row -->
+					</div>
+					<!-- eof .container -->
+				</li>
+				<li class="cs flex-active-slide">
+					<img src="images/carousel/LLEVOX_Fletes_04.jpg" alt="pedí un Llevox" draggable="false">
+					<div class="bg_overlay">
+					</div>					
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="slide_description_wrapper">
+									<div class="slide_description">
+											<div class="intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft">
+												<p class="big">
+													Operamos en Mar del Plata
+												</p>
+												<p class="divider_20">Próximamente en más ciudades!</p>
+											</div>      
+											<div class="pepe intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
+												<p class="descarga">Descargá la app:</p>
+												<div class="slider-bottons">
+													<img src="images/static/Google_Play.png" alt="" class="google_img">
+													<img src="images/static/App_Store.png" alt="" class="ios_img">
+												</div>
+											</div>
+									</div>
+									<!-- eof .slide_description -->
+								</div>
+								<!-- eof .slide_description_wrapper -->
+							</div>
+							<!-- eof .col-* -->
+						</div>
+						<!-- eof .row -->
+					</div>
+					<!-- eof .container -->
+				</li>
+			</ul>
+			<ul class="flex-direction-nav">
+				<li class="flex-nav-prev"><a class="flex-prev" href="#"></a></li>
+				<li class="flex-nav-next"><a class="flex-next" href="#"></a></li>
+			</ul>
+		</div>
+		<!-- eof flexslider -->
+	</section>
+	
+	<section id="soyfletero" class="ls section_padding_top_30 page_about"> 
+
+		<div class="container">
+			<div class="row topmargin_30">
+				<div class="col-sm-12 text-center">
+					<div class="framed-heading">
+						<h2 class="section_header">
+							<span> SOY FLETERO</span>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cs  section_padding_top_75 section_padding_bottom_75 parallax" style="background-image: url(images/static/LLEVOX_Fletero.jpg); background-color: rgba(29, 48, 82, 0.9); background-color: transparent;">
+		<div class="filter">
+			<div class="container central-conteiner">
+				<div class="row">
+					<div class="col-sm-12 text-center selected">
+						<div class="framed-heading to_animate  data-animation="fadeInUp">
+							<h2 class="section_header small">SUMATE A LLEVOX&nbsp;</h2>
+						</div>
+						<div class="to_animate" data-animation="fadeInDown">
+							<p class="to_animate">¿Tenés un utilitario? ¿Querés aumentar tu cartera de clientes? ¿Querés mejorar tus ingresos? ¿Querés optimizar tu trabajo?<br><br>Descargá GRATIS la app exclusiva para fleteros<br><br><br></p>
+						</div>
+						<div class="container">
+							<div class="row text-center">
+								<a href="https://play.google.com/store/apps/llevox-usuarios"><img src="images/static/Google_Play.png" alt="Google_Store" height="100px" width="200px"></a>
+								<a href="https://www.apple.com/ios/app-store/llevox-usuarios"><img src="images/static/App_Store.png" alt="App_Store" height="100px" width="200px"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<div class="container separador1">
+		<!-- separador -->
+	</div>	
+	<div id="funcionamiento" class="container">
+        <div class="row topmargin_30">
+            <div class="col-sm-12 text-center">
+                <div class="framed-heading">
+                    <h2 class="section_header">
+                        <span> ¿Cómo funciona?</span>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="col-sm-12 text-center">
+                <div class="video-responsive">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/78ozvkGIQvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+	</div>		
+		
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <article class="vertical-item content-padding with_border blog-item card">
+                    <div class="item-media">
+                        <img src="images/static/LLEVOX_Fletero_Utilitario.jpg" alt="">
+                    </div>
+                    <div class="item-content">
+                        <header class="entry-header">
+                            <h3 class="entry-title">
+                                ¿TENÉS UN UTILITARIO?
+                            </h3>
+                        </header>
+                        <p>
+                            Llegó el momento de modernizarte y ponerte en marcha! LLEVOX te permite generar un ingreso mansual y administrar tu tiempo a gusto, sin jefes, ni oficinas. Podés cotizar los translados que desees al valor que consideres adecuado.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <article class="vertical-item content-padding with_border blog-item card">
+                    <div class="item-media">
+                        <img src="images/static/LLEVOX_Fletero_Ventajas.jpg" alt="">
+                    </div>
+                    <div class="item-content">
+                        <header class="entry-header">
+                            <h3 class="entry-title">
+                                VENTAJAS
+                            </h3>
+                        </header>
+
+                        <p>
+                            Al manejarse 100% sobre una plataforma online, los usuarios Pueden acceder más rápido a un servicio seguro y valorado. Los fleteros pueden obtener mayor cantidad de clientes, aumentar su rentabilidad y organizar mejor su trabajo de forma GRATUITA.
+                        </p>
+
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <article class="vertical-item content-padding with_border blog-item card">
+                    <div class="item-media">
+                        <img src="images/static/LLEVOX_Fletero_Pasos.jpg" alt="">
+                    </div>
+                    <div class="item-content">
+                        <header class="entry-header">
+
+                            <h3 class="entry-title">
+                                PASOS
+                            </h3>
+
+                        </header>
+                        
+                            <ol>
+                                <li>Descargá la app versión fleteros.</li>
+                                <li>Registrate siguiendo simples pasos.</li>
+                                <li>Adjutá la documentación requerida.</li>
+                                <li>A medida que ingresen solicitudes de traslado, cotizá la que desees al precio que te parezca correcto.</li>
+                                <li>Cobrá en efectivo o con MercadoPago</li>
+                            </ol>
+                        
+                    </div>
+                </article>
+            </div>
+            
+        </div>
+        <div class="container separador2">
+            <!-- separador -->
+        </div>
+    </div>
+	
+
+	<footer class="page_footer ls ms color section_padding_top_75 section_padding_bottom_100 columns_margin_bottom_10">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<img src="images/static/logo.gif" alt="LLEVOX logo" class="imageLogo" />
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-3 col-sm-6">
+					<a href="" class="media text-center small-teaser  " data-toggle="modal" data-target="#Frecuentes">
+						PREGUNTAS FRECUENTES</a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="" class="media text-center small-teaser " data-toggle="modal" data-target="#Terminos">TÉRMINOS Y CONDICIONES</a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="" class="media text-center small-teaser " data-toggle="modal" data-target="#Politicas" >POLÍTICAS DE PRIVACIDAD</a>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="" class="media text-center small-teaser " data-toggle="modal" data-target="#Copyright">COPYRIGHT</a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+  
+	<!-- Modal Copyright-->
+	<div class="modal fade" id="Copyright" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="myModalLabel">Copyright</h3>
+				</div>
+					<div class="modal-body">
+						<div class="">
+							<a href="http://llevox.com/" class="logo" target="_blank">
+								<img src="images/static/logo.gif" alt="logo" class="imageLogo" />
+							</a>
+						</div>
+						<div class="seccion_usuarios">
+							<h3>Copyright</h3>
+							<div class="pad_p_modal">
+								<p class="text-justify">El Copyright de este sitio es propiedad privada e incluye la propiedad intelectual de todos los textos, fotografías, dibujos, logotipos, slogans y marcas registradas por LLEVOX o por terceras partes.</p>
+							</div>
+							<div class="pad_p_modal">
+								<p class="text-justify">Este sitio solo debe utilizarse para la compra de servicios o para obtener algún tipo de información sobre los mismos. El diseño gráfico de este sitio, las ilustraciones, íconos, fotografías, textos y slogans están debidamente registrados, por lo cual no pueden ser utilizados, copiados ni imitados, sin mediar autorización escrita previa por parte de LLEVOX.</p>
+							</div>
+							<div class="pad_p_modal">
+								<p class="text-justify">Nuestros logos no podrán ser utilizados bajo ninguna circunstancia en alguna manera que implique sponsoreo o auspicio de LLEVOX sin mediar autorización escrita previa.</p>
+							</div>
+							<div class="pad_p_modal">
+								<p class="text-justify">La marca LLEVOX, su logotipo, isotipo y monograma, sus submarcas, los dominios llevox.com, llebox.com, llevox.com.ar y llebox.com.ar y su marca identificatoria, se encuentran debidamente registrados por lo cual no pueden ser copiados, imitados ni utilizados, completa o parcialmente, sin la autorización escrita de LLEVOX.</p>
+							</div>
+						</div>
+					</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal POLITICAS-->
+	<div class="modal fade" id="Politicas" tabindex="-1" role="dialog" aria-labelledby="Politicas">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="myModalLabel">POLÍTICAS</h3>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<a href="http://llevox.com/" class="logo" target="_blank">
+							<img src="images/static/logo.gif" alt="logo" class="imageLogo" />
+						</a>
+					</div>
+					<div class="seccion_usuarios">
+					<h3>ACLARACIÓN</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">Todos nuestros términos, condiciones y políticas pueden modificarse periódicamente sin mediar aviso al usuario. Te recomendamos que ingreses periódicamente a esta sección de modo de estar actualizado sobre las modificaciones realizadas en nuestras Políticas de Privacidad. Cuando se publiquen cambios se indicará la fecha de introducción de los mismos, teniendo el usuario 5 días a partir de dicha fecha para manifestar si no está de acuerdo con dichos cambios. Vencido dicho plazo, de no mediar aviso, se considerará que el usuario acepta los nuevos Términos y Condiciones.
+							Tu información personal es muy valiosa para nosotros y trabajamos responsablemente para protegerla y mantenerla en forma confidencial. Es muy importante que antes de usar el sitio web y la aplicación de LLEVOX comprendas en su totalidad nuestras Políticas de Privacidad por lo cual te solicitamos que te tomes unos minutos y las leas en forma completa.
+							Mediante el uso del sitio web y la aplicación aceptás que tu información personal sea utilizada en la forma en que se determina en estas Políticas y manifestás tu acuerdo total con todas las cláusulas que la componen.</p>
+					</div>
+
+					<h3>GENERAL</h3>
+					
+					<div class="pad_p_modal">
+						<p class="text-justify">Creemos que el cuidado de la privacidad es uno de los componentes fundamentales del valor que queremos ofrecer a nuestros usuarios, y una de nuestras responsabilidades más importantes por lo que hacemos enormes esfuerzos para mantener protegida tu información personal y para ofrecerte una experiencia segura de navegación del sitio y la aplicación. Por eso LLEVOX bajo ninguna circunstancia comercializará o compartirá los nombres, direcciones, mails, celulares ni cualquier otro tipo de información personal de nuestros Usuarios con terceras partes, a menos que el gobierno o la justicia así lo determinen bajo cualquier razón, o que sea requerido por la policía de investigación bajo sospecha de actividades ilegales, bajo cargos de fraude, piratería informática o violación de los derechos de autor. En estos casos LLEVOX colaborará con la autoridad competente de modo de proteger al resto de los usuarios y proteger nuestra empresa. Colectaremos información personal de nuestros usuarios a través del uso de este sitio web y de la aplicación. Archivaremos y utilizaremos dichos registros únicamente con el propósito de conocerte mejor y determinar tus necesidades para satisfacerlas, a menos que nos manifiestes tu acuerdo para utilizarla en otra forma o que las leyes permitan el uso de la misma de otro modo. LLEVOX podrá compartir tu información personal con otras asociaciones, agencias de publicidad y otros websites exclusivamente para brindarte un mejor servicio, bajo estrictas normas de seguridad. LLEVOX no podrá controlar a dichas terceras partes más allá de controlar las normas acordadas en su contratación. Las Políticas de Privacidad de dichas empresas es exclusiva responsabilidad de las mismas. LLEVOX por ninguna razón venderá, alquilará o negociará tu información personal. En caso de que LLEVOX sea adquirida por otra entidad, tu información personal dentro de las bases de datos de la empresa será parte de dicha adquisición.</p>
+					</div>
+					
+					<h3>¿CÓMO RECOLECTAMOS TU INFORMACIÓN?</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">Recolectamos tu información de múltiples maneras. Por ejemplo: completando el alta de usuario en la aplicación de LLEVOX; completando un formulario en nuestro sitio web llevox.com, por celular o WhatsApp al +54 9 223 693-9601, por mail a hola@llevox.com o enviándonos un mensaje a través de Instagram/LLEVOX o Facebook/LLEVOX; cuando nos solicitás ser incluido en nuestra base de mails; cuando hacés comentarios en nuestras redes sociales Instagram, Facebook, LinkedIn o YouTube. Almacenamos tu información en una base de datos segura. Bajo ninguna circunstancia brindaremos esta información a otras personas u organizaciones salvo en las situaciones detalladas en la cláusula general de estas Políticas de Privacidad.</p>
+					</div>
+
+					<h3>¿COMO UTILIZAREMOS TU INFORMACIÓN PERSONAL?</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">Utilizaremos dicha información para procesar un traslado, enviarte información que nos hayas solicitado o responder un mail que nos hayas escrito. Para brindarte un servicio personalizado, informarte acerca de novedades de nuestra empresa, promociones y acciones de marketing directo. También la utilizaremos para invitarte a participar de eventos, encuestas o sorteos. Si no deseás recibir información de este tipo, podés comunicarte con nosotros completando un formulario en nuestro sitio web llevox.com, por celular o WhatsApp al +54 9 223 693-9601, por mail a hola@llevox.com o enviándonos un mensaje a través de Instagram/LLEVOX o Facebook/LLEVOX.</p>
+					</div>
+
+					<h3>MODIFICACIONES DE LA INFORMACIÓN</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">LLEVOX te permite modificar tu información, actualizarla o corregirla cuando lo desees. Podés indicarnos cuáles son los cambios solicitados completando un formulario en nuestro sitio web llevox.com, por celular o WhatsApp al +54 9 223 693-9601, por mail a hola@llevox.com o enviándonos un mensaje a través de Instagram/LLEVOX o Facebook/LLEVOX.</p>
+					</div>
+
+					<h3>PRIVACIDAD DE MENORES (CAPACIDAD LEGAL PARA CONTRATAR)</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">LLEVOX te permite modificar tu información, actualizarla o corregirla cuando lo desees. Podés indicarnos cuáles son los cambios solicitados completando un formulario en nuestro sitio web llevox.com, por celular o WhatsApp al +54 9 223 693-9601, por mail a hola@llevox.com o enviándonos un mensaje a través de Instagram/LLEVOX o Facebook/LLEVOX.</p>
+					</div>
+
+					<h3>OTRA POLÍTICA DE PRIVACIDAD QUE DEBÉS TENER EN CUENTA</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">Sé cuidadoso con el uso de tu información personal. Nunca olvides salir del sitio web y de la aplicación completamente luego de realizar un traslado de modo que nadie pueda obtener tus datos personales, especialmente si compartís una computadora, tablet o celutar, o la utilizás en algún espacio público como un Ciber Café. Como individuo sos responsable por la seguridad en el acceso a tu dispositivo electrónico y a tu información personal.</p>
+					</div>
+
+					<h3>COOKIES</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">Cuando ingresás a nuestro sitio web y aplicación y te registrás, tu registro nos permite saber automáticamente que tipo de dispositivo electrónico y sistema operativo utilizás. Como muchos otros sitios web, LLEVOX utiliza tecnología de cookies. Cuando te registrás por primera vez, las cookies te identifican como un registro único. Las cookies son pequeños archivos instalados en tu disco rígido que se utilizan para recordar tu número de contraseña, tu usuario, preferencias, actividades en algunas páginas, detectar tu visita al sitio web, saber que partes del sitio son más populares, que acciones realizás en el mismo y cuanto tiempo permanecés. También nos permiten investigar el tránsito de los navegantes en el sitio web de modo de mejorarlo. El uso de cookies nos permite brindarte un servicio más ágil y una experiencia de navegación personalizada. La instalación, permanencia y existencia de cookies en tu dispositivo electrónico depende de tu exclusiva voluntad. Si así lo deseas, podés configurarlo de modo que no acepte cookies.</p>
+					</div>
+
+					<h3>LÍMITE DE RESPONSABILIDAD</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">No podemos garantizar el interrumpido acceso seguro a nuestro sitio web y aplicación, ni al sistema de pago de MercadoPago, ya que la operación de nuestro sitio web y aplicación puede ser interferidos por numerosos factores fuera de nuestro control.</p>
+					</div>
+
+					<h3>ACEPTACIÓN DE NUESTRA POLÍTICA DE PRIVACIDAD</h3>
+					<div class="pad_p_modal">
+						<p class="text-justify">Utilizar nuestro sitio web y nuestra aplicación significa que comprendés en forma total estas Políticas de Privacidad y que estás en total acuerdo con todas las condiciones y reglas que las comprenden. Reconocemos tu derecho a acceder, cancelar y actualizar tu información personal y a oponerte al tratamiento de la misma. Los usuarios garantizan y responden, en cualquier caso, por la veracidad, exactitud, vigencia y autenticidad de los datos personales facilitados y se comprometen a mantenerlos debidamente actualizados. Mantendremos en nuestros archivos la información personal que nos hayas solicitado retirar con la finalidad de resolver disputas o reclamos, detectar problemas o incidencias y solucionarlas, y darle cumplimiento a nuestros Términos y Condiciones.</p>
+					</div>
+
+				</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal TERMINOS-->
+	<div class="modal fade" id="Terminos" tabindex="-1" role="dialog" aria-labelledby="Terminos">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">TÉRMINOS Y CONDICIONES</h4>
+				</div>
+				<div class="modal-body">
+					<div class="">
+						<a href="http://llevox.com/" class="logo" target="_blank">
+							<img src="images/static/logo.gif" alt="logo" class="imageLogo" />
+						</a>
+					</div>
+					<div class="seccion_fleteros">
+						<h3>GENERAL</h3>
+						<div class="pad_p_modal">
+							<p class="text-justify">Al utilizar el sitio web y la aplicación de LLEVOX manifestás tu aceptación y acuerdo con las condiciones planteadas en los Términos y Condiciones. El conocimiento de nuestros Términos y Condiciones y la utilización de el sitio web y la aplicación no implican que exista algún tipo de asociación, sociedad ni relación de dependencia entre LLEVOX y vos, por lo tanto acordás no realizar ningún tipo de actividad presentándote como representante, agente o empleado de LLEVOX, deslindando a LLEVOX de toda responsabilidad en relación con cualquier acto u omisión de tu parte.</p>
+						</div>
+
+						<h3>POLÍTICAS DE PRIVACIDAD</h3>
+						<div class="pad_p_modal">
+							<p class="text-justify">Creemos que el cuidado de la privacidad es uno de los componentes fundamentales del valor que queremos ofrecer a nuestras consumidoras. Por eso LLEVOX bajo ninguna circunstancia comercializará o compartirá los nombres, direcciones, mails, celulares, ni cualquier otro tipo de información personal de nuestros usuarios con terceras partes, a menos que sea requerido por la ley en el marco de alguna disputa o proceso legal.
+								Los detalles de tus traslados y pagos son manejados con extremo cuidado para mantener dichos datos seguros. No nos responsabilizamos por situaciones que puedan suceder por acciones o procedimientos de terceras partes que accedan a ellos de forma no autorizada.</p>
+						</div>
+						
+						 
+						<h3>POLÍTICAS DE COOKIES</h3>	
+						<div class="pad_p_modal">
+							<p class="text-justify">El sitio web www.llevox.com usa cookies para facilitar la utilización de nuestro sitio y adaptarlo mejor a tus intereses y necesidades. Con las cookies esto es posible porque el sitio puede leer y escribir estos pequeños ficheros de datos, recordando información importante que hará más cómoda tu navegación (por ejemplo, recordando tus ajustes preferidos o agilizando tu navegación). También empleamos las cookies para recopilar datos estadísticos consolidados y disociados que nos permiten entender cómo utilizás nuestro sitio y para mejorar la estructura y los contenidos del mismo, así como para interactuar con redes sociales o personalizar el contenido publicitario en base a un análisis de tus hábitos de navegación.</p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal FRECUENTES-->
+	<div class="modal fade" id="Frecuentes" tabindex="-1" role="dialog" aria-labelledby="Frecuentes">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h3 class="modal-title" id="myModalLabel">TÉRMINOS Y CONDICIONES</h3>
+				</div>
+				<div class="modal-body">
+					<div class="seccion_usuarios">
+						<div class="">
+							<a href="http://llevox.com/" class="logo" target="_blank">
+								<img src="images/static/logo.gif" alt="logo" class="imageLogo" />
+							</a>
+						</div>
+
+					<div class="seccion_usuarios">
+						<h3>PREGUNTAS FRECUENTES – Usuarios</h3>
+						<ol>	
+							<li>¿Qué es LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">LLEVOX es una aplicación para celulares que te conecta con diferentes fleteros para que te coticen los traslados que desees realizar y elijas el que consideres adecuado. Es una app que moderniza la comunicación entre usuarios y fleteros simplificando tus traslados al mejor precio del mercado. LLEVOX es fácil, práctico y seguro!</p>
+							</div>
+
+							<li>¿Quiénes pueden usar LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Fleteros: Personas que tengan un utilitario, camioneta o furgón habilitado para realizar traslados y deseen aumentar sus ingresos de manera fácil, práctica y segura.</p>
+								<p class="text-justify">Particulares: Personas que tengan que trasladar electrodomésticos, muebles, objetos grandes y/o pesados, realizar una mudanza, etc.</p>
+								<p class="text-justify">Comerciantes: Mayoristas, fábricas, distribuidores, centros comerciales, comercios y pymes que necesiten trasladar mercadería.</p>
+							</div>
+
+							<li>¿Qué días y en qué horarios está disponible el servicio?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">está disponible online las 24 horas del día, los 365 días del año. Podrás programar tus traslados el día y la hora que desees. La posibilidad de realizarlo dependerá de que uno o más fleteros estén disponibles y coticen tu traslado.</p>
+							</div>	
+
+							<li>¿Puedo hacer varios traslados desde una misma cuenta?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Podés solicitar tantos traslados como desees.</p>
+							</div>	
+							
+							<li>¿Qué tipos de vehículos me envían cotizaciones?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Vehículos de todo tipo: utilitarios, camionetas y furgones que cumplen con las normas vigentes y se adaptan a tus necesidades para trasladar lo que necesites.</p>
+							</div>
+							
+							<li>¿Todos los fleteros están verificados?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Todos los fleteros adheridos a LLEVOX cumplen con los requisitos y normativas vigentes: Patente, Seguro, Habilitación para el Transporte de Carga, VTV, etc.</p>
+							</div>
+
+							<li>¿Todas las cargas están aseguradas?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Todas las cargas viajan aseguradas con un "Seguro Mínimo” y si querés asegurar tu carga por un monto mayor, podés seleccionar las opciones “Seguro Adicional” o "Seguro Adicional Plus”.</p>
+							</div>
+							
+							<li>¿LLEVOX supervisa los traslados?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Supervisamos cada traslado de principio a fin para garantizar que todos los fleteros cumplan con los requisitos establecidos por LLEVOX. De esta manera aseguramos tu conformidad y satisfacción. Los usuarios confían en el respaldo de LLEVOX y en que los fleteros registrados les brindarán un excelente servicio.</p>
+							</div>
+						
+							<li>¿Quién establece el valor del traslado?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Recibirás cotizaciones de diferentes fleteros y podrás elegir la que consideres más adecuada según el tiempo de respuesta, el tipo de vehículo, el precio, la calificación del fletero, etc.</p>
+							</div>
+
+							<li>¿Qué incluyen las cotizaciones que recibo de los fleteros?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Las cotizaciones del traslado que desees realizar incluyen el costo del traslado, el uso del servicio y el seguro de la carga. La suma de estos tres conceptos es el valor que deberás abonar por MercadoPago o al fletero en Efectivo cuando realice el traslado. Por ejemplo: Traslado $800 + Servicio $100 + Seguro $50. Total que deberás abonar en tu cuenta de MercadoPago o en Efectivo: $950.</p>
+							</div>
+
+							<li>¿Cómo puedo abonar el traslado?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Podés abonar por MercadoPago con tarjeta de débito, tarjeta de crédito o realizando una transferencia entre cuentas. Y sino en Efectivo al fletero cuando realiza el traslado.</p>
+							</div>
+
+							<li>¿Puedo contactar al fletero por fuera de la aplicación?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Una vez confirmado el traslado, se habilitará un chat donde podrás comunicarte directamente con el fletero. Por otro lado, en la opción “Traslados” de la aplicación, tenés que seleccionar el traslado del fletero que querés contactar y luego seleccionar la opción “Detalles”. Allí figurará el celular del fletero para que puedas comunicarte con él en caso de considerarlo necesario. Y lo mismo podrá hacer el fletero en caso de necesitar contactarse con vos por algún motivo relacionado con el traslado. </p>
+							</div>
+
+							<li>¿Puedo repetir un mismo envío?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Tenés que ingresar a la opción “Traslados” de la aplicación, luego seleccionar el traslado que querés repetir y, por último, seleccionar la opción “Repetir Traslado".</p>
+							</div>
+						
+							<li>¿Puedo cancelar el traslado?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Tenés que ingresar a la opción “Traslados” de la aplicación, luego seleccionar el traslado que querés cancelar y, por último, seleccionar la opción “Cancelar Traslado”.</p>
+							</div>
+
+							<li>¿Qué pasa ante la cancelación del traslado?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">En caso de cancelación del servicio, por tu parte o por decisión del fletero, automáticamente se dará de baja el traslado y te reintegraremos el dinero en el medio de pago que hayas utilizado para abonar el traslado: efectivo, tarjeta de débito, tarjeta de crédito o en tu cuenta de MercadoPago.</p>
+							</div>
+
+							<li>¿Hay penalidades por cancelar el traslado?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">En caso de cancelación del servicio, por tu parte o por decisión del fletero, automáticamente se dará de baja el traslado y te reintegraremos el dinero en el medio de pago que hayas utilizado para abonar el traslado: efectivo, tarjeta de débito, tarjeta de crédito o en tu cuenta de MercadoPago.</p>
+							</div>
+
+							<li>¿En qué localidades está disponible LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Por el momento sólo operamos en la ciudad de Mar del Plata. Próximamente estaremos ofreciendo servicios de traslado en otras localidades del país.</p>
+							</div>
+
+							<li>¿Qué elementos NO se pueden trasladar?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Armas, explosivos, drogas, productos ilícitos y productos que requieran refrigeración especial.</p>
+							</div>
+
+							<li>¿Mi servicio de traslado puede tener paradas intermedias?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">No. Por el momento sólo ofrecemos traslados de un punto A a un punto B. Contemplaremos esta posibilidad en una nueva versión.</p>
+							</div>
+
+							<li>¿Cómo califico al fletero por su trabajo?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">En la opción “Traslados” de la aplicación, tenés que seleccionar el traslado que quieras calificar y luego seleccionar la opción “Calificar al Fletero”. Allí podrás dar tu calificación y opinión sobre la calidad del servicio y la atención recibida. ¡Para nosotros es MUY IMPORTANTE que califiques al fletero para cada vez que finalice un traslado!</p>
+							</div>
+
+							<li>¿Cómo me contacto con LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Podés comunicarte con nosotros completando un formulario en nuestro sitio web llevox.com, por celular o WhatsApp al +54 9 223 693-9601, por mail a hola@llevox.com o enviándonos un mensaje a través de Instagram/LLEVOX o Facebook/LLEVOX.</p>
+							</div>
+						</ol>
+
+					</div>	
+					
+					<div class="seccion_fleteros">
+						<h3>PREGUNTAS FRECUENTES – Fleteros</h3>
+						<ol>
+							<li>¿Qué es LLEVOX?</li>
+								<div class="pad_p_modal">
+									<p class="text-justify">LLEVOX es una aplicación para celulares que te conecta con diferentes usuarios para que cotices los traslados que desees realizar al precio que consideres adecuado. Es una app que	moderniza la comunicación entre usuarios y fleteros simplificando tu trabajo y mejorando tu rentabilidad. LLEVOX optimiza tu trabajo, capta más clientes y aumenta tus ingresos!</p>
+								</div>	
+							
+							<li>¿Quiénes pueden usar LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Fleteros: Personas que tengan un utilitario, camioneta o furgón habilitado para realizar traslados y deseen aumentar sus ingresos de manera fácil, práctica y segura.</p>
+								<p class="text-justify">Particulares: Personas que tengan que trasladar electrodomésticos, muebles, objetos grandes y/o pesados, realizar una mudanza, etc.</p>
+								<p class="text-justify">Comerciantes: Mayoristas, fábricas, distribuidores, centros comerciales, comercios y pymes que necesiten trasladar mercadería.</p>
+							</div>	
+
+							<li>¿Qué días y en qué horarios está disponible el servicio?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">LLEVOX está disponible online las 24 horas del día, los 365 días del año. Podrás cotizar sólo los traslados que desees realizar, según el día y la hora estipulados por el usuario. La posibilidad de que recibas una “Confirmación de Traslado” dependerá de la cantidad de fleteros que cotizaron dicho traslado y la elección del usuario.</p>
+							</div>
+
+							<li>¿Qué factores influyen en la elección del usuario?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">El usuario recibirá diferentes cotizaciones de traslado y podrá elegir la que considere más adecuada según el precio, el tiempo de respuesta, la calificación del fletero, el tipo de vehículo, cantidad de traslados realizados, etc.</p>
+							</div>
+
+							<li>¿Qué documentación necesito para darme de alta como fletero?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Para darte de alta como fletero deberás seguir unos simples pasos. A medida que avances, la aplicación te irá pidiendo tus datos, los datos del vehículo y las fotos de la siguiente documentación en regla y al día: DNI, CUIT, Licencia de Conducir, Tarjeta Verde/Azul, Patente del Vehículo, Seguro del Vehículo, VTV y Habilitación para el Transporte de Carga. Más info aquí.</p>
+							</div>
+
+							<li>¿Qué pasa si no cumplo con la documentación necesaria para darme de alta?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">En caso de no cumplir con la documentación necesaria para darte de alta como fletero en LLEVOX, deberás escribirnos por mail a fletes@llevox.com o por WhatsApp al +54 9 223 693-9601 y te indicaremos cómo proceder.</p>
+							</div>
+
+							<li>¿Todos los fleteros están verificados?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Todos los fleteros adheridos a LLEVOX cumplen con los requisitos y normativas vigentes: Patente, Seguro, Habilitación para el Transporte de Carga, VTV, etc. Una vez que verifiquemos la documentación enviada recibirás una confirmación de “Alta de Fletero LLEVOX” y estarás habilitado para realizar traslados.</p>
+							</div>
+
+							<li>¿Cómo me entero si hay traslados para cotizar?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Recibirás notificaciones en tu celular y también podrás acceder a la aplicación y chequear las cotizaciones que están pendientes de cotizar.</p>
+							</div>
+
+							<li>¿LLEVOX supervisa los traslados?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Supervisamos cada traslado de principio a fin para garantizar que todos los fleteros cumplan con los requisitos establecidos por LLEVOX. De esta manera aseguramos tu conformidad y la satisfacción de los usuarios. Los usuarios confían en el respaldo de	LLEVOX y en que los fleteros registrados les brindarán un excelente servicio.</p>
+							</div>
+
+							
+							<li>¿Cuál es la ventaja de pertenecer a LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">¡Si tenés un utilitario podés sumarte a LLEVOX y convertite en tu propio jefe! Modernizarte y optimizar tu trabajo, manejar tus horarios y usar tu tiempo libre para ganar dinero extra. Utilizando LLEVOX vas a generar más clientes, cobrar los traslados en el momento (en Efectivo o con MercadoPago) y obtener beneficios para vos y tu vehículo.</p>
+							</div>
+
+							<li>¿Puedo contactar al usuario por fuera de la aplicación?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Una vez confirmado el traslado, se habilitará un chat donde podrás comunicarte directamente con el usuario. Por otro lado, en la opción “Traslados” de la aplicación, tenés que seleccionar el traslado del usuario que querés contactar y luego seleccionar la opción “Detalles”. Allí figurará el celular del usuario para que puedas comunicarte con él en caso de considerarlo necesario. Y lo mismo podrá hacer el usuario en caso de necesitar contactarse con vos por algún motivo relacionado con el traslado.</p>
+							</div>
+
+							<li>¿LLEVOX cobra comisión por usar la aplicación?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Por usar la aplicación no tenés gastos extra. PARA LOS FLETEROS LLEVOX ES GRATIS y no te cobra comisión. Sólo deberás abonar la comisión que te retiene automáticamente MercadoPago por cada traslado que los usuarios abonen por dicho medio. Más info aquí.</p>
+							</div>
+
+							<li>¿Qué incluye la tarifa que abona el usuario?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Cuando cotices el traslado que desees realizar, el usuario lo recibirá con un valor adicional por el uso del servicio y el seguro de la carga. El costo del traslado + el uso del servicio + el seguro de la carga, es el valor que el usuario te abonará a través de MercadoPago o personalmente en Efectivo cuando realices el traslado.</p>
+							</div>
+
+							<li>¿Cómo es el procedimiento de cobro entre el fletero y el usuario?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Una vez que confirmás la realización del traslado, el usuario te abonará, por MercadoPago o en Efectivo, el costo del traslado, sumado al uso del servicio y al seguro de la carga. Por ejemplo: Traslado $800 + Servicio $100 + Seguro $50. Total que recibirás en tu cuenta de MercadoPago o en Efectivo: $950.</p>
+							</div>
+
+							<li>¿Cómo es el procedimiento de pagos entre el fletero y LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Una vez por mes recibirás un detalle de los traslados realizados y del valor que deberás reintegrarle a LLEVOX. Tené en cuenta que además del costo del traslado, el usuario te abonó el uso del servicio y el seguro de la carga. Es por ello que cada 30 días deberás devolverle a LLEVOX (por MercadoPago o en Efectivo) lo que sumen dichos conceptos (servicio + seguro).</p>
+							</div>
+
+							<li>¿Todas las cargas están aseguradas?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Todas las cargas viajan aseguradas con un "Seguro Mínimo” y si el usuario desea asegurar su carga por un monto mayor, puede seleccionar las opciones “Seguro Adicional” o "Seguro Adicional Plus”.</p>
+							</div>
+
+							<li>¿Puedo cancelar el traslado una vez confirmado por el usuario?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Sí. Tenés que ingresar a la opción “Traslados” de la aplicación, seleccionar el traslado que desees cancelar y, por último, seleccionar “Cancelar Traslado”. Te pedimos que sólo lo hagas en casos de emergencia o fuerza mayor ya que posiblemente le genere un disgusto al usuario y te califique negativamente. Esto puede llegar a perjudicarte en las cotizaciones de los próximos traslados. ¡Te recomendamos que te disculpes por chat con el usuario!</p>
+							</div>
+
+							<li>¿Qué pasa si el usuario cancela el traslado?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Recibirás una notificación en tu celular informándote el motivo de la cancelación. En caso de que el usuario haya abonado el servicio por MercadoPago, deberás anular la operación desde tu Panel de Control de MercadoPago y el sistema automáticamente le reintegrará el dinero al usuario por el medio de pago que haya utilizado para abonar el traslado.</p>
+							</div>
+
+							<li>¿En qué localidades está disponible LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Por el momento sólo operamos en la ciudad de Mar del Plata. Próximamente estaremos ofreciendo servicios de traslado en otras localidades del país.</p>
+							</div>
+
+							<li>¿Qué elementos NO se pueden trasladar?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Armas, explosivos, drogas, productos ilícitos y productos que requieran refrigeración especial.</p>
+							</div>
+
+							<li>¿Cómo me califica el usuario por mi trabajo?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">En la opción “Traslados” de la aplicación, tiene que seleccionar el traslado que quiere calificar y luego seleccionar la opción “Calificar al Fletero”. Allí podrá dar su calificación y opinión sobre la calidad del servicio y la atención recibida. Es MUY IMPORTANTE que todos los usuarios califiquen tu trabajo para que mejores tu reputación y obtengas así más “Confirmaciones de Traslado”. ¡Te recomendamos que, cada vez que finalices un traslado, te comuniques por chat con el usuario y lo invites a calificarte!</p>
+							</div>
+
+							<li>¿Cómo me contacto con LLEVOX?</li>
+							<div class="pad_p_modal">
+								<p class="text-justify">Podés comunicarte con nosotros completando un formulario en nuestro sitio web llevox.com, por celular o WhatsApp al +54 9 223 693-9601, por mail a fletes@llevox.com o enviándonos un mensaje a través de Instagram/LLEVOX o Facebook/LLEVOX.		</p>
+							</div>
+
+						</ol>
+					
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
