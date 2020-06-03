@@ -72,6 +72,13 @@
 	padding-right: 20px;
 }
 
+ .bigx p {
+	font-size: 100px;
+	line-height: 0.9;
+
+ }
+
+
 .seccion_usuarios h3 {
 	color: rgba(61, 113, 184, 1);
 	font-weight: 900;
@@ -227,7 +234,7 @@
 		display: none;
 	}
 }
-#llevox h2, #funcionamiento h2 {
+#llevox h2, #funcionamiento h2, #soyfletero h2 {
 	font-family: 'GothamRounded-Medium' !important;
 }
 
@@ -6219,7 +6226,7 @@ justify-items: end;
 
 @media (min-width: 1200px) {
 	.intro_section .big {
-		font-size: 80px;
+		font-size: 70px;
 	}
 
 	.intro_section p {
