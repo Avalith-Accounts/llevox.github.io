@@ -80,7 +80,8 @@
 					</a>
 				</div>
 				<div class="col-sm-8 col-lg-9 text-center text-sm-right teasers-line">
-					<a href="https://api.whatsapp.com/send?phone=5492236939601" 
+					<a onclick="ga('send', 'event', 'Whatsapp', 'Mensaje', 'Enviado ', '1');fbq('track', 'Lead');" 
+					  href="https://api.whatsapp.com/send?phone=5492236939601" 
 						class="media inline-block text-uppercase semibold small-teaser text-left">
 						<!-- <div class="media inline-block text-uppercase semibold small-teaser text-left"> -->
 							<div class="grey bold">Whatsapp</div>
@@ -183,8 +184,8 @@
 											<div class="pepe intro-layer to_animate animated fadeInLeft" data-animation="fadeInLeft"	>
 												<p class="descarga">Descargá la app:</p>
 												<div class="slider-bottons">
-													<a href="https://play.google.com/store/apps/llevox-usuarios"><img src="images/static/Google_Play.png" alt="" class="google_img"></a>
-													<a href="https://www.apple.com/ios/app-store/llevox-usuarios"><img src="images/static/App_Store.png" alt="" class="ios_img"></a>
+													<a onclick="fbq('track', 'Lead');ga('send', 'event', 'Descargar', 'App', 'cliente-final', '1');" href="https://play.google.com/store/apps/llevox-usuarios"><img src="images/static/Google_Play.png" alt="" class="google_img"></a>
+													<a onclick="fbq('track', 'Lead');ga('send', 'event', 'Descargar', 'App', 'cliente-final', '1');" href="https://www.apple.com/ios/app-store/llevox-usuarios"><img src="images/static/App_Store.png" alt="" class="ios_img"></a>
 												</div>
 											</div>
 									</div>
