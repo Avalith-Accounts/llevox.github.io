@@ -1,6 +1,6 @@
 name: Frontend CI
 
-on: [push, pull_request]
+on: [push]
 
 env:
   BUCKET_NAME: "llevox-frontend-ws"
@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: npm ci
+        run: echo "npm ci"
 
       - name: Build frontend
         run: echo "npm run build"
